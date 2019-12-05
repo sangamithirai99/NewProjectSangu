@@ -5,4 +5,4 @@ document.querySelector("#timebutton").addEventListener("click", function(){
     document.getElementById("timebutton").innerHTML = "xxxx";
   });
 
-showName('Sangu')
+showName('Sangamithirai')
