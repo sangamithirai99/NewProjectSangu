@@ -1,5 +1,5 @@
 var Class1 = {   'Student1': ['Viswanathan', 'Mohan'],
-                 'Student2': ['Sangu', 'VNMohan'],
+                 'Student2': ['Sangu', 'V.N.Mohan'],
                  'Student3': ['Rathan', 'Viswanathan'],
                  'Student4': ['Thara', 'Gopinath']};
                  
@@ -18,8 +18,6 @@ document.querySelector("#timebutton").addEventListener("click", function(){
 
   });
 
-
-  
 function GetTime(){
   var today = new Date();
   return today.toLocaleTimeString();
